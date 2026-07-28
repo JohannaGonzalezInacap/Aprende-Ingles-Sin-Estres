@@ -1,0 +1,6 @@
+{
+  "name": "Pastry English - Aprende Inglés Sin Estrés",
+  "description": "Aplicación de aprendizaje de inglés estilo videojuego de repostería chic con repetición espaciada, refuerzo positivo y lecciones relajantes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
