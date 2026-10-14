@@ -1,6 +1,5 @@
 import express from "express";
 import path from "path";
-import { createServer as createViteServer } from "vite";
 import { GoogleGenAI } from "@google/genai";
 import dotenv from "dotenv";
 
@@ -66,10 +65,11 @@ Responde únicamente en formato JSON con este esquema exacto:
 }`;
 
     const response = await ai.models.generateContent({
-      model: "gemini-3.6-flash",
+      model: "gemini-flash-latest",
       contents: prompt,
       config: {
         responseMimeType: "application/json",
+        thinkingConfig: { thinkingBudget: 0 },
       },
     });
 
@@ -122,10 +122,11 @@ Responde estrictamente en formato JSON con la siguiente estructura:
 }`;
 
     const response = await ai.models.generateContent({
-      model: "gemini-3.6-flash",
+      model: "gemini-flash-latest",
       contents: prompt,
       config: {
         responseMimeType: "application/json",
+        thinkingConfig: { thinkingBudget: 0 },
       },
     });
 
@@ -146,6 +147,10 @@ Responde estrictamente en formato JSON con la siguiente estructura:
 // Express & Vite server startup logic
 async function startServer() {
   if (process.env.NODE_ENV !== "production") {
+    // Import dinámico: "vite" (y su dependencia "rollup") solo se cargan en
+    // desarrollo local. Un import estático rompe la función serverless en
+    // Vercel, donde el binario nativo de rollup para Linux no está disponible.
+    const { createServer: createViteServer } = await import("vite");
     const vite = await createViteServer({
       server: { middlewareMode: true },
       appType: "spa",
@@ -164,4 +169,11 @@ async function startServer() {
   });
 }
 
-startServer();
+// En Vercel no hay servidor persistente: la app de Express se exporta como función
+// (Vercel la invoca directamente, sin pasar por app.listen()). Fuera de Vercel
+// (local, Render, etc.) se mantiene el arranque normal con app.listen().
+if (!process.env.VERCEL) {
+  startServer();
+}
+
+export default app;
