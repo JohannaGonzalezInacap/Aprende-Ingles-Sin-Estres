@@ -1,4 +1,7 @@
 # 🥐 Pastry English • Pâtisserie Chic
+
+![Portada de Pastry English](docs/cover.svg)
+
 > **Aprende inglés sin estrés, a tu ritmo y disfrutando del proceso.**
 
 Pastry English es una aplicación web interactiva diseñada especialmente para personas que desean aprender inglés en un entorno cálido, acogedor y libre de ansiedad. Inspirada en la estética elegante de una pastelería francesa (*Pâtisserie Chic*), la plataforma combina métodos pedagógicos probados como la **Repetición Espaciada (SRS)** y el **Refuerzo Positivo**, eliminando contadores de tiempo estresantes, penalizaciones agresivas y métricas de presión.

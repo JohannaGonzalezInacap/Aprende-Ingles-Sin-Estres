@@ -1,0 +1,104 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <title>Pastry English - Portada</title>
+  <defs>
+    <filter id="soft-blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="28"></feGaussianBlur>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="630" fill="#FFFDF9"></rect>
+
+  <circle cx="1110" cy="70" r="210" fill="#FDE68A" opacity="0.35" filter="url(#soft-blur)"></circle>
+  <circle cx="90" cy="600" r="190" fill="#FBCFE8" opacity="0.45" filter="url(#soft-blur)"></circle>
+  <circle cx="525" cy="45" r="5" fill="#FB7185" opacity="0.6"></circle>
+  <circle cx="563" cy="93" r="3" fill="#FBBF24" opacity="0.7"></circle>
+
+  <!-- Badge pill -->
+  <rect x="64" y="96" width="196" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.75" stroke="#FBCFE8"></rect>
+  <circle cx="80" cy="112" r="3.5" fill="#FB7185"></circle>
+  <text x="92" y="117" font-family="Verdana, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#9D174D">PÂTISSERIE CHIC</text>
+
+  <!-- Title -->
+  <text x="62" y="202" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" fill="#4C0519">Pastry</text>
+  <text x="62" y="268" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" font-style="italic" fill="#BE123C">English</text>
+
+  <!-- Description -->
+  <text x="64" y="308" font-family="Verdana, Arial, sans-serif" font-size="16" fill="#881337" fill-opacity="0.85">
+    <tspan x="64" dy="0">Aprende inglés sin estrés, a tu ritmo y</tspan>
+    <tspan x="64" dy="24">disfrutando del proceso. Vocabulario dulce,</tspan>
+    <tspan x="64" dy="24">repetición espaciada y una tutora de IA que</tspan>
+    <tspan x="64" dy="24">nunca pierde la paciencia.</tspan>
+  </text>
+
+  <!-- Feature chips -->
+  <g>
+    <rect x="64" y="412" width="192" height="38" rx="16" fill="#FFFFFF" stroke="#FCE7F3"></rect>
+    <g transform="translate(78,423)">
+      <path d="M4 5.5C4 4.67 4.67 4 5.5 4H11V20H5.5C4.67 20 4 19.33 4 18.5V5.5Z" stroke="#BE123C" stroke-width="1.6" stroke-linejoin="round" fill="none" transform="scale(0.72)"></path>
+      <path d="M20 5.5C20 4.67 19.33 4 18.5 4H13V20H18.5C19.33 20 20 19.33 20 18.5V5.5Z" stroke="#BE123C" stroke-width="1.6" stroke-linejoin="round" fill="none" transform="scale(0.72)"></path>
+    </g>
+    <text x="108" y="436" font-family="Verdana, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#4C0519">Repetición espaciada</text>
+  </g>
+
+  <g>
+    <rect x="266" y="412" width="138" height="38" rx="16" fill="#FFFFFF" stroke="#FCE7F3"></rect>
+    <g transform="translate(280,423)">
+      <path d="M12 20.5C12 20.5 4 15.8 4 9.9C4 6.9 6.2 5 8.6 5C10 5 11.2 5.7 12 6.8C12.8 5.7 14 5 15.4 5C17.8 5 20 6.9 20 9.9C20 15.8 12 20.5 12 20.5Z" stroke="#FB7185" stroke-width="1.6" stroke-linejoin="round" fill="none" transform="scale(0.72)"></path>
+    </g>
+    <text x="310" y="436" font-family="Verdana, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#4C0519">Tutora de IA</text>
+  </g>
+
+  <g>
+    <rect x="416" y="412" width="128" height="38" rx="16" fill="#FFFFFF" stroke="#FCE7F3"></rect>
+    <g transform="translate(430,423)">
+      <path d="M20 13.2C18.9 13.7 17.7 14 16.4 14C11.8 14 8 10.2 8 5.6C8 4.3 8.3 3.1 8.8 2C5.3 3 2.7 6.2 2.7 10C2.7 14.6 6.4 18.3 11 18.3C14.8 18.3 18 15.7 19 12.2" stroke="#B45309" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(0.72)"></path>
+    </g>
+    <text x="460" y="436" font-family="Verdana, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#4C0519">Modo noche</text>
+  </g>
+
+  <text x="64" y="486" font-family="Verdana, Arial, sans-serif" font-size="13" fill="#BE123C" fill-opacity="0.6">pastry-english.vercel.app</text>
+
+  <!-- Vitrine card -->
+  <rect x="639" y="65" width="500" height="500" rx="56" fill="#FFFFFF" fill-opacity="0.55" stroke="#FCE7F3"></rect>
+
+  <!-- Kawaii croissant -->
+  <rect x="669" y="99" width="206" height="206" rx="48" fill="#FEF3C7"></rect>
+  <g transform="translate(708,138) scale(2)">
+    <path d="M8 40C6 24 18 10 32 10C44 10 54 18 54 28C54 28 46 24 40 29C34 34 40 38 34 43C28 48 20 46 14 41C10.8 38.2 8 40 8 40Z" fill="#FCD34D" stroke="#B45309" stroke-width="2" stroke-linejoin="round"></path>
+    <path d="M18 30L24 24" stroke="#B45309" stroke-width="2" stroke-linecap="round" opacity="0.7"></path>
+    <path d="M24 36L30 30" stroke="#B45309" stroke-width="2" stroke-linecap="round" opacity="0.7"></path>
+    <path d="M18 42C19.6 43.6 21.6 43.8 23 42.2" stroke="#7C2D12" stroke-width="2" stroke-linecap="round" fill="none"></path>
+    <path d="M31 42C32.6 43.6 34.6 43.8 36 42.2" stroke="#7C2D12" stroke-width="2" stroke-linecap="round" fill="none"></path>
+    <circle cx="16.5" cy="45.5" r="3.4" fill="#FCA5A5" opacity="0.85"></circle>
+    <circle cx="34.5" cy="45.5" r="3.4" fill="#FCA5A5" opacity="0.85"></circle>
+    <path d="M22 48.5C23.8 50.3 27.2 50.3 29 48.5" stroke="#7C2D12" stroke-width="2" stroke-linecap="round" fill="none"></path>
+  </g>
+
+  <!-- Kawaii macaron -->
+  <circle cx="1033" cy="191" r="82" fill="#FBCFE8"></circle>
+  <g transform="translate(981,139) scale(1.625)">
+    <ellipse cx="32" cy="20" rx="20" ry="11" fill="#F9A8D4" stroke="#BE185D" stroke-width="2"></ellipse>
+    <ellipse cx="32" cy="34" rx="20" ry="7" fill="#FFF1F7" stroke="#F472B6" stroke-width="1.6"></ellipse>
+    <ellipse cx="32" cy="46" rx="20" ry="11" fill="#F9A8D4" stroke="#BE185D" stroke-width="2"></ellipse>
+    <path d="M22 18C23.4 19.6 25.6 19.6 27 18" stroke="#831843" stroke-width="2" stroke-linecap="round" fill="none"></path>
+    <path d="M37 18C38.4 19.6 40.6 19.6 42 18" stroke="#831843" stroke-width="2" stroke-linecap="round" fill="none"></path>
+    <circle cx="21" cy="23" r="3.2" fill="#FDA4AF" opacity="0.8"></circle>
+    <circle cx="43" cy="23" r="3.2" fill="#FDA4AF" opacity="0.8"></circle>
+    <path d="M27.5 24C29 25.4 35 25.4 36.5 24" stroke="#831843" stroke-width="2" stroke-linecap="round" fill="none"></path>
+  </g>
+
+  <!-- Kawaii teacup -->
+  <circle cx="857" cy="431" r="108" fill="#FECDD3"></circle>
+  <g transform="translate(791,365) scale(2.0625)">
+    <path d="M22 10C21 13 24 14 23 17" stroke="#FDA4AF" stroke-width="2" stroke-linecap="round" fill="none"></path>
+    <path d="M30 8C29 11 32 12 31 15" stroke="#FDA4AF" stroke-width="2" stroke-linecap="round" fill="none"></path>
+    <path d="M12 22H42V32C42 40.3 35.3 47 27 47C18.7 47 12 40.3 12 32V22Z" fill="#FFF8F0" stroke="#9F1239" stroke-width="2" stroke-linejoin="round"></path>
+    <path d="M42 26H46C49.3 26 52 28.7 52 32C52 35.3 49.3 38 46 38H41" fill="#FFF8F0" stroke="#9F1239" stroke-width="2" stroke-linejoin="round"></path>
+    <ellipse cx="27" cy="51" rx="19" ry="4" fill="#FECDD3" stroke="#9F1239" stroke-width="2"></ellipse>
+    <path d="M18 31C19.4 32.6 21.6 32.6 23 31" stroke="#9F1239" stroke-width="2" stroke-linecap="round" fill="none"></path>
+    <path d="M31 31C32.4 32.6 34.6 32.6 36 31" stroke="#9F1239" stroke-width="2" stroke-linecap="round" fill="none"></path>
+    <circle cx="17" cy="36" r="3.4" fill="#FB7185" opacity="0.75"></circle>
+    <circle cx="37" cy="36" r="3.4" fill="#FB7185" opacity="0.75"></circle>
+    <path d="M22.5 37.5C24.3 39.4 29.7 39.4 31.5 37.5" stroke="#9F1239" stroke-width="2" stroke-linecap="round" fill="none"></path>
+  </g>
+</svg>
